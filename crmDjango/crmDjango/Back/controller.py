@@ -6,7 +6,7 @@ import json
 class  Controller(object):
 
     
-    usersDb = TinyDB('usersDb.json')
+    usersDb = TinyDB('crmDjango//usersDb.json')
     userQuery = Query()
     users = []
     charList = []
