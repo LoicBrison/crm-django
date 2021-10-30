@@ -72,7 +72,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'crmDjango.wsgi.application'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'crmDjango//Front//static//')
+    os.path.join(BASE_DIR, 'crmDjango//Front//static//css//')
 ]
 
 
